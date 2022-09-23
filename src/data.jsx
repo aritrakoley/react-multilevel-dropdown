@@ -28,6 +28,16 @@ const card = (
   </div>
 );
 
+export const fruitsData = {
+  id: "base",
+  label: "Fruits",
+  options: [
+    { id: "a", label: "Oranges" },
+    { id: "b", label: "Lemons" },
+    { id: "c", label: "Grapes" },
+  ],
+};
+
 export const options = {
   id: "1",
   label: "Phones",
